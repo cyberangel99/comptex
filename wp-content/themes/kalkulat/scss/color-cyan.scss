@@ -1,0 +1,66 @@
+/* -----------------------------------
+**   Cyan Color
+-------------------------------------*/
+@import "variables.scss";
+a{
+    &:hover,&:focus,&.active{
+        color:$cyan;
+    }
+}
+.base-color,
+.single-contat-info:hover .icon span,
+.we-do-item:hover .text a,
+.base-bg .kal-button:hover,
+.usefull-link li a:hover,
+.gallery-filter ul li a:hover,
+.gallery-filter ul li a:focus,
+.top-search-input-wrap .search-wrap .search.educon-top-search .sp_search_input::after,
+.slider-button .kal-button:hover
+{
+    color: $cyan;
+}
+.single-contat-info:hover .icon span,
+.owl-theme .owl-controls .owl-page.active span,
+.blog-style-one:hover,
+.blog-style-one:hover .date,
+.base-border,
+.kal-button:hover,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="time"]:focus,
+input[type="text"]:focus,
+.form-control:focus,
+textarea:focus,
+textarea.form-control:focus,
+.tag-list a:hover
+{
+    border-color: $cyan;
+}
+.base-bg,
+#easy-menu ul ul,
+.accordion-toggle:not(.collapsed)::before,
+.progress-item .progress-bg .progress-rate,
+.owl-theme .owl-controls .owl-page.active span,
+.service-item:hover,
+.work-sction::before,
+.social-icons li a::before,
+.usefull-link li a:hover::before,
+.kal-button:hover,
+.preloader,
+.shop-tab .nav-tabs li.active a, 
+.shop-tab .nav-tabs li a:hover
+{
+    background: $cyan;
+}
+
+.menu2-area.main-menu-fix,.kalkulate-single-intro::before{
+    background: $cyan !important;
+}
+.banner-area::before {
+    background: rgba(75, 191, 203, .7);
+}

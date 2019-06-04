@@ -1,0 +1,224 @@
+@import "variables.scss";
+
+
+@media (min-width: 2560px) {
+
+}
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1366px) {
+
+}
+
+@media (max-width: 1199px) {
+    #easy-menu > ul > li {
+    	padding: 0 11px;
+    }
+}
+@media (max-width: 991px) {
+
+    .row-eq-rs-height{
+    	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center ;
+    }
+    .home-one-header .topbar-area{
+        display: none;
+    }
+    .topbar-contact-info{
+        display: none;
+    }
+    .topbar{
+        min-height: 60px;
+        .logo{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .what-wedo-image-verticle{
+        padding-bottom: 60px;
+    }
+    .what-wedo-image-verticle > .image{
+        display: none;
+    }
+    .copyright-area{
+        text-align: center;
+        .footer-menu{
+            text-align: center;
+        }
+    }
+    .get-started-text{
+        text-align: center;
+    }
+    .get-started-button{
+        text-align: center;
+    }
+    .desktop-menu {
+        display: none !important;
+      }
+      .mobile-menu {
+        display: block;
+      }
+      .mobile-background-nav {
+        display: block;
+      }
+    .team-member{
+        max-width: 100%;
+    }
+    .gallery-grid-two .grid-item{
+        width:50%;
+        height: auto;
+        img{
+            width:100%;
+            height: auto;
+        }
+    }
+    .gallery-grid-two .grid-another-width{
+        width:100%;
+    }
+    .kalkulate-map-location-informatrion .kalkulate{
+        width:100%;
+        float: none;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .blog-item{
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        .image{
+            img{
+                width:100%;
+            }
+        }
+    }
+    .topbar-two{
+        text-align: center;
+    }
+    .topbar-social-icons{
+        text-align: center;
+    }
+    .tag-and-share{
+        display: block;
+    }
+    .tag-and-share .tag-list{
+        margin-bottom: 0;
+    }
+    .tag-and-share .social-share{
+        margin-bottom: 50px;
+    }
+    .grid-item {
+
+    	width: 50%;
+    }
+    .our-product-information .single {
+    	width: 29%;
+    	flex: none;
+    	display: inline-block;
+        margin-bottom: 30px;
+    }
+    .our-product-information{
+        display: block;
+    }
+    .product-name-thumb, 
+    .product-name-thumb > div{
+        display: block
+    }
+    .product-name-thumb .item-name{
+        font-size: 17px;
+        font-weight:400;
+    }
+    .product-name-thumb .item-photo{
+        padding:0 0 15px 0;
+    }
+
+}
+@media (max-width: 480px) {
+    .panel-heading a{
+        padding-left: 0;
+        &:before{
+            display: none;
+        }
+    }
+    .single-counter .text {
+    	margin-left: 80px;
+    }
+    .single-counter .counter {
+    	font-size: 28px;
+    }
+    .section-heading h2{
+        font-size: 38px;
+    }
+    .slider-button{
+        .kal-button{
+            min-width: 200px;
+            border-width:1px !important;
+            padding:5px 20px !important;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    }
+    .uranus.tparrows{
+        display: none;
+    }
+    .slider-title{
+        &:before,&:after{
+            width:80px;
+        }
+        &:before{
+            left:-100px;
+        }
+        &:after{
+            right:-100px;
+        }
+    }
+    .error-text .error-404{
+        font-size: 155px;
+        line-height: 155px;
+        margin-bottom: 0;
+    }
+    .sidebar{
+        padding:30px 20px 0 20px;
+    }
+    .widget-most-commented{
+        .image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .comment-list ol {
+    	padding-left: 60px;
+    }
+    .our-product-information .single {
+    	width: 100%;
+    	display: block;
+    }
+    .banner-area {
+        padding-bottom: 100px;
+        padding-top: 104px;
+    }
+    .shop-tab .nav-tabs li a {
+        font-size: 17px;
+        padding: 9px 16px;
+    }
+}
+@media (max-width: 375px) {
+    .blog-style-one {
+        padding: 35px 15px 23px 15px;
+    }
+    .kalkulate-map-location-informatrion{
+        padding:20px 15px;
+    }
+    #mapContainer{
+        height: 200px;
+    }
+    .gallery-filter {
+    	padding-bottom: 38px;
+    }
+    .grid-item {
+    	width: 100%;
+    }
+}
