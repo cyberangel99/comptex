@@ -1,0 +1,58 @@
+
+---Downloaded files---
+The import files for: kalkulat Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/comptex
+Data file = C:\xampp\htdocs\comptex\wp-content\plugins\kalkulat-demo-data/demo_data/kalkulat-demo.xml
+Widget file = C:\xampp\htdocs\comptex\wp-content\plugins\kalkulat-demo-data//demo_data/kalkulat-widgets.json
+Customizer file = C:\xampp\htdocs\comptex\wp-content\plugins\kalkulat-demo-data//demo_data/kalkulat-export.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Shop Sidebar : 
+
+Search - No Title - Widget already exists
+Filter Products by Price - Filter by price - Imported
+Filter Products by Rating - Average rating - Imported
+Recent Product Reviews - Recent reviews - Imported
+Cart - Cart - Imported
+Navigation Menu - Information - Widget already exists
+Navigation Menu - Account - Widget already exists
+Navigation Menu - UseFull Link - Widget already exists
+Navigation Menu - Service - Widget already exists
+
+Footer Sidebar : 
+
+kalkulat About - No Title - Widget already exists
+Navigation Menu - USEFUL LINKS - Widget already exists
+kalkulat Recent Post - LATEST NEWS - Widget already exists
+
+Footer Sidebar Two : 
+
+kalkulat About - No Title - Widget already exists
+kalkulate Navigation Menu - Information - Widget already exists
+kalkulate Navigation Menu - Account - Widget already exists
+kalkulate Navigation Menu - USEFUL LINKS - Widget already exists
+kalkulate Navigation Menu - Service - Widget already exists
+
+Footer Shop Sidebar : 
+
+kalkulat About - No Title - Widget already exists
+Navigation Menu - USEFUL LINKS - Widget already exists
+Recent Product Reviews - Recent reviews - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
