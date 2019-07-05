@@ -1,0 +1,8 @@
+2019-07-05T15:36:00+00:00 CRITICAL Uncaught Error: Call to undefined method ActionScheduler_DateTime::format() in C:\xampp\htdocs\comptex\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:341
+Stack trace:
+#0 C:\xampp\htdocs\comptex\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(411): ActionScheduler_wpPostStore->get_query_actions_sql(Array, 'select')
+#1 C:\xampp\htdocs\comptex\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueCleaner.php(46): ActionScheduler_wpPostStore->query_actions(Array)
+#2 C:\xampp\htdocs\comptex\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueCleaner.php(136): ActionScheduler_QueueCleaner->delete_old_actions()
+#3 C:\xampp\htdocs\comptex\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(92): ActionScheduler_QueueCleaner->clean(300)
+#4 C:\xampp\htdocs in C:\xampp\htdocs\comptex\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 341
+
